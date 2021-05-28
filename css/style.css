@@ -1,0 +1,46 @@
+body{
+  background-color: #d1d9d9;
+}
+
+.container-fluid{
+  padding: 3% 10%;
+}
+
+nav{
+  background-color: #f29191;
+  font-size: 20px;
+}
+
+.navbar-brand{
+  font-size: 25px;
+}
+
+.header{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Kalam', cursive;
+}
+
+.sub-header1{
+  display: inline-block;
+  font-size: 100px;
+}
+
+.sub-header2{
+  display: inline-block;
+}
+
+.img1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 200px;
+  height: 200px;
+  transform: rotate(20deg)
+}
+
+.poem{
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}

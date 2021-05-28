@@ -5,14 +5,20 @@ body{
 .container-fluid{
   padding: 3% 10%;
 }
+/* Navigation-Bar */
+.navbar{
+  background-color: #fff8d9;
+}
 
-nav{
-  background-color: #f29191;
+.nav-link{
   font-size: 20px;
+  font-weight: bold;
 }
 
 .navbar-brand{
-  font-size: 25px;
+  font-family: 'Kalam',cursive;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .header{
@@ -30,16 +36,30 @@ nav{
   display: inline-block;
 }
 
+/* images */
+
+.img2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  transform: rotate(20deg)
+}
 .img1{
   margin-top: 50px;
   margin-bottom: 50px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   transform: rotate(20deg)
 }
 
+/* Context */
+.context-section{
+  padding: 1% 5%;
+}
+
 .poem{
-  font-size: 15px;
+  font-size: 20px;
   padding: 10px;
   text-align: center;
   font-family: 'Merriweather', serif;

@@ -1,51 +1,61 @@
-body{
+body {
   background-color: #d1d9d9;
 }
 
-.container-fluid{
+/* Top_section */
+.container-fluid {
   padding: 3% 10%;
 }
-/* Navigation-Bar */
-.navbar{
-  background-color: #fff8d9;
-}
 
-.nav-link{
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.navbar-brand{
-  font-family: 'Kalam',cursive;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.header{
+.top-section {
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: 'Kalam', cursive;
 }
 
-.sub-header1{
+.top-section:hover {
+  color: #962d2d;
+}
+
+.header {
   display: inline-block;
   font-size: 100px;
 }
 
-.sub-header2{
+.penImage {
   display: inline-block;
 }
 
-/* images */
+/* Navigation-Bar */
+.navbar {
+  background-color: #fff8d9;
+}
 
-.img2{
+.nav-link {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-family: 'Kalam', cursive;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* images */
+.images-section {
+  padding: 3% 1%;
+}
+
+.img2 {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 150px;
   height: 150px;
   transform: rotate(20deg)
 }
-.img1{
+
+.img1 {
   margin-top: 50px;
   margin-bottom: 50px;
   width: 150px;
@@ -54,13 +64,59 @@ body{
 }
 
 /* Context */
-.context-section{
+#context-section {
   padding: 1% 5%;
 }
 
-.poem{
+h3 {
+  font-family: Merriweather, cursive;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.h4poem {
+  font-family: 'Kalam', cursive;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  color: #ba135d;
+}
+
+.poem {
   font-size: 20px;
   padding: 10px;
   text-align: center;
   font-family: 'Merriweather', serif;
+}
+
+.poem-text {
+  padding-top: 5%;
+}
+
+/* Articles-Section */
+#Articles {
+  padding: 1% 5%;
+  background-color: #ff96ad;
+  margin-bottom: 1%;
+}
+
+.coursel-css {
+  padding-top: 5%;
+}
+
+.h4article{
+  font-family: 'Kalam', cursive;
+  font-size: 30px;
+  font-style: italic;
+  text-align: left;
+  text-decoration: underline;
+  color: #962d2d;
+}
+
+.Articles-text {
+  padding: 10px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }

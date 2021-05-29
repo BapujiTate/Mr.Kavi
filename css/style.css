@@ -47,25 +47,46 @@ body {
   padding: 3% 1%;
 }
 
-.img2 {
+.top-img-1{
   margin-top: 50px;
   margin-bottom: 50px;
   width: 150px;
   height: 150px;
+  border-radius: 50px;
+  transform: rotate(30deg)
+}
+
+.top-img-2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+  transform: rotate(-30deg)
+}
+
+.middle-img-1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
   transform: rotate(20deg)
 }
 
-.img1 {
+.middle-img-2{
   margin-top: 50px;
   margin-bottom: 50px;
   width: 150px;
   height: 150px;
-  transform: rotate(20deg)
+  border-radius: 50px;
+  transform: rotate(-20deg)
 }
 
 /* Context */
 #context-section {
   padding: 1% 5%;
+  background-color: #ffffff;
 }
 
 h3 {
@@ -76,6 +97,7 @@ h3 {
 }
 
 .h4poem {
+  font-weight: bolder;
   font-family: 'Kalam', cursive;
   font-style: italic;
   text-decoration: underline;
@@ -87,6 +109,7 @@ h3 {
   font-size: 20px;
   padding: 10px;
   text-align: center;
+  font-weight: bold;
   font-family: 'Merriweather', serif;
 }
 
@@ -98,7 +121,7 @@ h3 {
 #Articles {
   padding: 1% 5%;
   background-color: #ff96ad;
-  margin-bottom: 1%;
+  margin-bottom: 3%;
 }
 
 
@@ -120,4 +143,20 @@ h3 {
   text-align: justify;
   font-size: 20px;
   font-family: 'Merriweather', serif;
+}
+
+/* Qoutes Section */
+#Quotes{
+  padding: 2% 5%;
+  background-color: #e9896a;
+  margin-bottom: 3%;
+}
+
+.mycards{
+  padding: 2% 1%;
+}
+
+.Quotes-images{
+  width: 350px;
+  height: 350px;
 }

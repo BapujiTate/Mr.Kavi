@@ -48,8 +48,8 @@ body {
 }
 
 .top-img-1{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top:30px;
+  margin-bottom: 30px;
   width: 150px;
   height: 150px;
   border-radius: 50px;
@@ -57,8 +57,8 @@ body {
 }
 
 .top-img-2{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 150px;
   height: 150px;
   border-radius: 50px;
@@ -66,8 +66,8 @@ body {
 }
 
 .middle-img-1{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 150px;
   height: 150px;
   border-radius: 50px;
@@ -75,8 +75,8 @@ body {
 }
 
 .middle-img-2{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 150px;
   height: 150px;
   border-radius: 50px;
@@ -156,7 +156,48 @@ h3 {
   padding: 2% 1%;
 }
 
+.card-header{
+background-color: #fcecdd;
+}
+
+.Quotes-text{
+  font-size: 20px;
+  font-weight: bold;
+  color: #962d2d;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
 .Quotes-images{
   width: 350px;
   height: 350px;
+  object-fit: fill;
+}
+
+/* Contacts-Section */
+
+#Contacts{
+  padding: 3% 15%;
+  background-color: #ffffff;
+  margin-bottom: 3%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.h4-Contacts{
+  font-weight: bold;
+  font-family: "Montserrat-Bold";
+}
+
+.icons{
+  color: #ff7b54;
+  padding-bottom: 2%;
+}
+
+.icons:hover{
+  color: #810000;
 }

@@ -1,339 +1,54 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <title>My Site</title>
-  <!-- Stylesheets -->
+  <title>
+    Login page
+  </title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css\style-login.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
 </head>
 
 <body>
-  <!-- Header, -->
-  <section id="Home" style="background-color: #fff8d9;">
-    <div class="container-fluid">
-      <div class="top-section">
-        <center>
-          <div class="header">
-            <h1 style="font-size: 70px;">Hi I'm Bapuji...</h1>
-          </div>
-          <div class="penImage">
-            <img src="images\pen-md.ico" alt="Pen">
-          </div>
-        </center>
-      </div>
-      <!-- Navigation-bar -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Mr.कवी</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav mr-auto">
-            <li>
-              <a class="nav-link" href="#Home">Home</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#context-section">Poems</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#Articles">Articles</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#Quotes">Quotes</a>
-            </li>
-            <li>
-              <a class="nav-link" href="#Contacts">Contacts</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #ffffff;">Submit</button>
-          </form>
-        </div>
-      </nav>
-  </section>
-
-  <!-- Under Navigation-bar -->
-  <section>
+  <div id="login">
+    <h3 class="text-center text-white pt-5">Login form</h3>
     <div class="container">
       <center>
-        <div class="row">
-          <div class="col-6" style="background-color:#d1d9d9;">
-            <img class="top-img-1" src="images\img2.png" alt="image">
-          </div>
-          <div class="col-6" style="background-color:#d1d9d9;">
-            <img class="top-img-2" src="images\img2.png" alt="image">
-          </div>
-        </div>
-    </div>
-    </center>
-  </section>
+        <div id="login-row" class="row justify-content-center align-items-center">
+          <div id="login-column" class="col-md-6">
+            <div id="login-box" class="col-md-12">
+              <form name="login">
+                <h3 class="text-center text-info">Login</h3>
+                <div class="space">
 
-  <!-- Content-->
-  <section id="context-section">
-    <div class="container-fluid">
-      <h3>Poems</h3>
-      <div class="row">
-        <div class="col-lg-4 poem-text" style="background-color: #ffe5e2; border: 2px solid; border-radius: 50px;">
-          <h4 class="h4poem">कसा रे...तु पारिजातका</h4>
-          <p class="poem">मंद मध्यरात्रीत फुलतो,<br>
-            अंधुक चांदण्यात बहरतो,<br>
-            पहाटेच्या मंत्रमुग्धतेत गंधाळतो,<br>
-            आणि येताच सूर्याच्या किरणांची चाहुल,<br>
-            लगेच कोमेजून जातो....!<br>
-            असा, कसा रे...तु पारिजातका..?<br>
-            इतका नाजूक अन् इतका हळवा......!</p>
-        </div>
-        <div class="col-lg-4 poem-text" style="background-color: #ffe5e2; border: 2px solid;border-radius: 50px;">
-          <h4 class="h4poem">थकले मन</h4>
-          <p class="poem">थकले पाऊल, मन झाले उदास<br>
-            नकोच वाटे हा पुन्हा अट्टाहास <br>
-            बांधल्या पट्ट्या जबाबदारीच्या <br>
-            भावनेच्या घायाळ जखमांस ,<br>
-            खुप सोसल्या ठेचा जाणिवांच्या<br>
-            तरिही ओढ लागली एकच जीवास<br>
-            राहून राहून सारखे वाटते<br>
-            आता तरि सुखकर व्हावा पुढचा प्रवास.</p>
-        </div>
-        <div class="col-lg-4 poem-text" style="background-color: #ffe5e2; border: 2px solid;border-radius: 50px;">
-          <h4 class="h4poem">तुझ्या माझ्या नात्यात</h4>
-          <p class="poem">सुरांचा साज अन कलांचा आगास आहे<br>
-            एकमेकांचे कौतुक अपार अन <br>
-            जोड त्याची लेखनास आहे <br>
-            तुझ्या माझ्या नात्यात काही तरी खास आहे <br>
-            इच्छेची जमीन अन त्याला आशेच अवकाश आहे <br>
-            डोळ्यात संयमाचा सागर अन <br>
-            हृदयात हिमालय विश्वास आहे <br>
-            तुझ्या माझ्या नात्यात काही तरी खास आहे</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 poem-text" style="background-color: #ffe5e2; border: 2px solid;border-radius: 50px;">
-          <h4 class="h4poem">पहिलं प्रेम</h4>
-          <p class="poem">वळलो मी माघारी आता घराकडे जात<br>
-            नेतो एकच तव अश्रूंची स्मृती उरात <br>
-            <br>
-            ऋतूंमध्ये हरवलाय आज क्षण तो बेधुंद<br>
-            तरीही ऋतूंमध्येच सावरतोय जीवनाचा तो आनंद<br>
-            <br>
-            व्याकुळतेला पाठीशी घालून जळतोय जगात <br>
-            तू जिवंत आहे अजूनही माझ्या पहिल्या प्रेमात
-          </p>
-        </div>
-        <div class="col-lg-4 poem-text" style="background-color: #ffe5e2; border: 2px solid;border-radius: 50px;">
-          <h4 class="h4poem">ध्येर्यावस्था</h4>
-          <p class="poem">जीवनाच्या रंगभूमीवर आहे एक पात्र प्रत्येकाचे <br>
-            संभ्रमात टाकणाऱ्या प्रश्नात दुःखाने रंगलेल्या धर्मयुद्धाचे <br>
-            <br>
-            म्यानबंद तलवारी पाहून विजयाचा ध्यास सुटला <br>
-            स्वप्नांच्या धिंडवड्यात मन निश्चय तुटून पडला <br>
-            <br>
-            आंधळेपणाचं वरदान मिळालं अन ऐकू येण्याचा शाप <br>
-            दरिद्री मनानं झाकून टाकलं स्मित वदनाने हे पाप
-          </p>
-        </div>
-        <div class="col-lg-4 poem-text" style="background-color: #ffe5e2; border: 2px solid;border-radius: 50px;">
-          <h4 class="h4poem">तुझी तू रहा.... तुझी तू रहा....</h4>
-          <p class="poem">कुणी नसलं तरी चालेलं <br>
-            आभाळ फाटलं तरी चालेलं <br>
-            वादळं वाऱ्याने हातातील मशाल विझेल <br>
-            अंधाराचे साम्राज्य डोळ्यांसमोर दाटेलं <br>
-            काजव्यांच्या सोबतीने तुझी तू वाट शोधत रहा <br>
-            तुझी तू रहा.... तुझी तू रहा....</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Under-Context -->
-  <section>
-    <div class="container">
-      <center>
-        <div class="row">
-          <div class="col-6" style="background-color:#d1d9d9;">
-            <img class="middle-img-1" src="images\img1.jpg" alt="image">
-          </div>
-          <div class="col-6" style="background-color:#d1d9d9;">
-            <img class="middle-img-2" src="images\img1.jpg" alt="image">
+                </div>
+                <div class="form-group">
+                  <label for="username" class="text-info">Username:</label><br>
+                  <input type="text" name="userid" />
+                </div>
+                <div class="form-group">
+                  <label for="password" class="text-info">Password:</label><br>
+                  <input type="password" name="pswrd" />
+                </div>
+                <input type="submit" name="submit" onclick="check(this.form)" class="btn btn-info btn-md" value="submit">
+                <input type="reset" class="btn btn-info btn-md" value="Cancel">
+              </form>
+            </div>
           </div>
         </div>
+      </center>
     </div>
-    </center>
-  </section>
-
-  <!-- Article_section -->
-  <section id="Articles">
-    <h3>Articles</h3>
-    <div id="Articals-carousel" class="carousel slide" data-pause="hover">
-      <div class="carousel-inner">
-        <div class="carousel-item active coursel-css">
-          <h4 class="h4article">Let it be...</h4>
-          <p class="Articles-text">&emsp;&emsp;&emsp;Everyone says let her go, be practical but I only know how it feels inside. Unconditionally I loved you but in the end, I got only pain from you.
-            And you know what, I learned something which is the best lesson for me in my life. I learned how to pretend. I stuck this fake smile on my face and let
-            them show. I am the happiest man in this world. But no one could understand that I am dying inside.<br>&emsp;&emsp;&emsp; The whole night I stare at the ceiling of my home.
-            There is nothing left now but I don't know why there is still a cry for you. Why I can't move on the way you did so easily.
-            I wish I never loved you girl but would I mean it? I know it is not easy for me to forget and live. Are you making it hard for me or I am the only
-            one who thinks about it so madly? I tried every possible way to do so but I couldn't delete your photos. So let it be, I will delete your photos, your
-            texts, your messages. But how could I delete your voice, your words, and the first letter of your name on my hand?<br>&emsp;&emsp;&emsp; You had a reason for all this but I don't
-            have any reason to do it. Now I try to act like I don't care but everyone knows that I care.
-            Since you left me every night I cried for you and there is no such a moment that I spend without remembering you. You are running all over inside me.
-            I miss you, I cry for you, every day every night, I swear on you.</p>
-        </div>
-        <div class="carousel-item coursel-css">
-          <h4 class="h4article">Death</h4>
-          <p class="Articles-text">&emsp;&emsp;&emsp;I have no work to do in your world, my useless life can only break out into tunes without a purpose. When the hour strikes for the silent worship at the dark temple of midnight command me, my dear,
-            to stand
-            before you to sing. I'm waiting for your love to give myself up at last into your hands. People blame me and call me heedless but I doubt not they are right in their blame.<br>&emsp;&emsp;&emsp; The song that I came to sing remains unsung
-            to that day. I have spent my days stringing and unstringing my instruments. The time has not come true the
-            words are not been rightly set only there is an agony of wishing in my heart. The flower has not opened only the wind is blowing by. I have not seen her face nor I listened to her voice only I heard her gentle footsteps from the road
-            before my house.<br>&emsp;&emsp;&emsp; The whole day passed in waiting for her and I can't ask her into my home. I am living in the hope of meeting with her and that meeting is not yet. I shall ever try to keep all untruths out of my mind
-            but nothing worked, I think I am here
-            that what my life deserves. Many things happened to my life that your coming in life is like forever memoranda to me. I will never forget how you feel me with your love. One day the death will come and the forlorn myself will remain in my
-            house leaving the dark shadow of the night on my mornings.</p>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#Articals-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#Articals-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-  </section>
-
-
-<!-- Quotes Section -->
-  <section id="Quotes">
-    <h3>Quotes</h3>
-    <div class="row mycards">
-    <div class="col-lg-4">
-        <div class="card">
-            <div class="card-header">
-                <h4 class="Quotes-text">काश तुझे भी समज आये <br>
-बता ऐसी क्या वज़ह करू <br>
-मुश्कीलौसे कम हो मुश्किल तेरी <br>
-बता ऐसी क्या मिन्नत करू </h4>
-            </div>
-            <div class="card-body">
-              <center>
-                <img class="Quotes-images" src="images\qut-img-1.jpg" alt="image">
-              </center>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="card">
-            <div class="card-header">
-                <h4 class="Quotes-text">अगर वो पूछ ले, तो क्या बताये हम<br>
-बताये सब कुछ, या छुपाये हम <br>
-अगर वो देखने आये, तो क्या दिखाये हम<br>
-हसते हुवे चहरे, या आंसू छुपाये हम</h4>
-            </div>
-            <div class="card-body">
-              <center>
-                <img class="Quotes-images" src="images\qut-img-2.jpg" alt="image">
-              </center>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-4">
-        <div class="card">
-            <div class="card-header">
-                <h4 class="Quotes-text"><br>वो एक कहानी थी, जो चलती ही रही<br><br>
-मैं एक किस्सा था, जो ख़तम हो गया</h4>
-            </div>
-            <div class="card-body">
-              <center>
-                <img class="Quotes-images" src="images\qut-img-3.jpg" alt="image">
-              </center>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row mycards">
-<div class="col-lg-4">
-    <div class="card">
-        <div class="card-header">
-            <h4 class="Quotes-text">ये जिंदगी इश्क़ के दस्तूर ही कुछ ऐसे बनाती हैं<br>
-शहजादियाँ सिर्फ शहज़ादोंके हिस्से में आती है<br>
-और मुझ तुम जैसे फकीरों के हिस्से में तो<br>
-सिर्फ सुनसान राह की उड़ती हुई धूल ही आती हैं </h4>
-        </div>
-        <div class="card-body">
-          <center>
-            <img class="Quotes-images" src="images\qut-img-4.jpg" alt="image">
-          </center>
-        </div>
-    </div>
-</div>
-<div class="col-lg-4">
-    <div class="card">
-        <div class="card-header">
-            <h4 class="Quotes-text">डर लगता है अब कही ये तन्हाईयाँ<br>
-पुरी जिंदगी से दोस्ती ना कर दे <br>
-अब सोच रहे है ये सोच कर की <br>
-क्यों ना पुरी जिंदगी ही तुम्हारे नाम कर दे </h4>
-        </div>
-        <div class="card-body">
-          <center>
-            <img class="Quotes-images" src="images\qut-img-5.jpg" alt="image">
-          </center>
-        </div>
-    </div>
-</div>
-<div class="col-lg-4">
-    <div class="card">
-        <div class="card-header">
-            <h4 class="Quotes-text">दिल पे हज़ार जख्म लेकर घूमते है <br>
-पर ये जमानेवाले हमें क्या समजते है <br>
-की तेरी एक नजर ने सब देख लिया <br>
-अब हम भी तुमसे कहा कुछ छुपाया करते है </h4>
-        </div>
-        <div class="card-body">
-            <center>
-              <img class="Quotes-images" src="images\qut-img-6.jpg" alt="image">
-            </center>
-        </div>
-    </div>
-</div>
-</div>
-  </section>
-
-  <!-- Contacts-Section -->
-  <section id="Contacts">
-    <div class="row">
-      <div class="feature-box col-lg-4">
-        <a href="https://www.instagram.com/ba__ji_7638/?hl=en"><i class="fab fa-instagram fa-4x icons"></i></a>
-        <h4 class="h4-Contacts">Instagram</h4>
-        <p>You can go to my Instagram id</p>
-      </div>
-      <div class="feature-box col-lg-4">
-        <a href="https://twitter.com/BapujiTate"><i class="fab fa-twitter fa-4x icons"></i></a>
-        <h4 class="h4-Contacts">Twitter</h4>
-        <p>You can tweet me @BapujiTate</p>
-      </div>
-      <div class="feature-box col-lg-4">
-        <a href="mailto:bapujitatepatil@gmail.com"><i class="fas fa-envelope fa-4x icons"></i></a>
-        <h4 class="h4-Contacts">Mail-me</h4>
-        <p>You can mail me on bapujitatepatil@gmail.com</p>
-      </div>
-    </div>
-    </section>
-
+  </div>
+  <script language="javascript">
+    function check(form) /*function to check userid & password*/ {
+      /*the following code checkes whether the entered userid and password are matching*/
+      if (form.userid.value == "baji" && form.pswrd.value == "shivaba") {
+        window.open('home.html') /*opens the target page while Id & password matches*/
+      } else {
+        alert("Error Password or Username") /*displays error message*/
+      }
+    }
+  </script>
 </body>
 
 </html>
